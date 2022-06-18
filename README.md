@@ -15,11 +15,11 @@
 
 * how does replacing the 9th grade math and reading scores affect Thomas High's school performance relative to the other schools. Does not…top_schools
 
-* how does replacing the 9th grade scores affect
-1. math and reading scores by grade… only affects 9th grade grade_summary_math/reading
-2. scores by school spending… because scores were barely affected, it did not affect the scores based on school spending break down….per_school_spending
-3. scores by school size… we know that there are 1635 students so Thomas is considered a medium school, score were not affected …. Size_summary
-4. scores by school type… we also know that Thomas is a charter school… not affected… school_type
+* how does replacing the 9th grade scores affect:
+  1. math and reading scores by grade: only affects 9th grade grade_summary_math/reading
+  2. scores by school spending: because scores were barely affected, it did not affect the scores based on school spending break down….per_school_spending
+  3. scores by school size: we know that there are 1635 students so Thomas is considered a medium school, score were not affected …. Size_summary
+  4. scores by school type: we also know that Thomas is a charter school… not affected… school_type
 
 
 ## Summary
