@@ -10,17 +10,18 @@
 ## Results
 ### After comparing the revised analysis against the original, we find:
 ___Note: in all screen shots below, the left output is the original analysis and the right output is the revised analysis___
-* The district summary as a whole was only minimally affected. Once all nineth grade math and reading scores for Thomas High School were removed and replaced with "NaN" values, 461 out of 39170 students are affected, or .011%. The revised district finding are not statistically significant. ___district_summary_df___
+* The district summary as a whole was only minimally affected. Once all nineth grade math and reading scores for Thomas High School were removed and replaced with "NaN" values, 461 out of 39170 students are affected, or .011%. The revised district finding are not statistically significant. ![district_summary_df](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/district_summary_df.png)
 
-* We find that school summary for Thomas High School is only minimally affected even though 461 out of 1635, or 28.1%, of students in this summary are affected. This is due to the fact that NaN values aren’t taken into account in the mathematical equations. ___school_summary_df___
+* We find that school summary for Thomas High School is only minimally affected even though 461 out of 1635, or 28.1%, of students in this summary are affected. This is due to the fact that NaN values aren’t taken into account in the mathematical equations. ![school_summary_df](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/school_summary_df.png)
 
-* Replacing the 9th grade math and reading scores, again, does not affect Thomas High's school performance relative to the other schools. Thomas High School remains in the same second place position relative to all 15 schools when measured by percentage of students with an overall passing grade in both math and reading. ___top_schools___
+* Replacing the 9th grade math and reading scores, again, does not affect Thomas High's school performance relative to the other schools. Thomas High School remains in the same second place position relative to all 15 schools when measured by percentage of students with an overall passing grade in both math and reading. ![top_schools](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/top_schools.png)
 
 * How does replacing the Thomas High School 9th grade scores affect:
-1. Math and reading scores: Math and reading scores by grade are only affected for 9th grade because Thomas High School does not have any applicable scores. ___summary_math and reading___
-2. Scores by school spending: because scores were only minimally affected, there was no statistically significant difference in the scores based on school spending summary. ___per_school_spending___
-3. Scores by school size: We know that there are 1635 students that attend Thomas High School, therefore, it is considered a medium sized school. Scores were not affected and there was no difference in output in the measurable metrics based on school size. ___Size_summary___
-4. Scores by school type: We additionally know that Thomas High School is a charter school. In the summary based on school type, there was no change in output between the original annalysis and the revised annalysis. ___school_type___
+1. Math and reading scores: Math and reading scores by grade are only affected for 9th grade because Thomas High School does not have any applicable scores. ![grade_summary_math](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/grade_summary_math.png)
+![grade_summary_reading](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/grade_summary_reading.png)
+2. Scores by school spending: because scores were only minimally affected, there was no statistically significant difference in the scores based on school spending summary. ![per_school_spending](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/per_school_spending.png)
+3. Scores by school size: We know that there are 1635 students that attend Thomas High School, therefore, it is considered a medium sized school. Scores were not affected and there was no difference in output in the measurable metrics based on school size. ![size_summary](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/size_summary.png)
+4. Scores by school type: We additionally know that Thomas High School is a charter school. In the summary based on school type, there was no change in output between the original annalysis and the revised annalysis. ![school_type](https://github.com/BryantKlewer/School_District_Analysis/blob/main/pics/school_type.png)
 
 
 ## Summary
